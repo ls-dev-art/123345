@@ -1,0 +1,41 @@
+slug: consul-basics-copy
+id: 86xcti5rtovh
+revision: -62135596800
+title: Consul Basics Copy
+teaser: Learn how to use the world's most popular service discovery tool.
+description: |-
+  The track is a crash course in Consul operations. You will accomplish the following:
+
+  * Set Up a 3 Node Consul Cluster
+  * Use the Consul UI
+  * Use the Consul CLI
+  * Use the Consul API
+  * Add an App Node to Your Cluster
+  * Test Consul's High Availability
+  * Add Basic Security with Consul's ACLs
+
+  Once you've learned these fundamentals you can proceed to intermediate and advanced topics like Service Discovery and Consul Connect.
+icon: https://storage.googleapis.com/instruqt-frontend/assets/hashicorp/tracks/consul.png
+tags:
+- cluster
+- consul basics
+- introduction to consul
+- serf
+owner: hashicorp
+developers:
+- lovro@instruqt.com
+instructors: []
+show_timer: true
+idle_timeout: 0
+timelimit: 0
+lab_config:
+  extend_ttl: 0
+  sidebar_enabled: true
+  hideStopButton: false
+  feedback_recap_enabled: true
+  feedback_tab_enabled: false
+  override_challenge_layout: false
+  default_layout: AssignmentRight
+  default_layout_sidebar_size: 33
+  loadingMessages: true
+enhanced_loading: null
