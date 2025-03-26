@@ -1,5 +1,6 @@
 ---
 slug: 01-meet-consul
+id: wjja36hs90e4
 type: challenge
 title: Get to Know Consul
 teaser: My First Consul cluster
@@ -7,30 +8,32 @@ notes:
 - type: text
   contents: "\U0001F578️You are about to enter the Consul Zone\U0001F47D"
 tabs:
-- id: 0u75n8rbfyjt
+- id: nqjpid9ldbuf
   title: Consul0
   type: terminal
   hostname: consul-server-0
-- id: vrnkkhuw2u46
+- id: xxgk5kzvdpdj
   title: Consul1
   type: terminal
   hostname: consul-server-1
-- id: vhmmkdtu59uk
+- id: lxecxkbw1gdu
   title: Consul2
   type: terminal
   hostname: consul-server-2
-- id: dythoovverkf
+- id: xd5rpl8jgzjp
   title: Server0 - Config
   type: code
   hostname: consul-server-0
   path: /consul/config/server.json
-- id: rukgcqfi5zc6
+- id: xnjmychbb6kv
   title: Consul UI
   type: service
   hostname: consul-server-0
   port: 8500
 difficulty: basic
 timelimit: 600
+lab_config:
+  default_layout_sidebar_size: 0
 enhanced_loading: null
 ---
 Welcome to Consul Basics! In this lab you'll start up a three-node Consul cluster.

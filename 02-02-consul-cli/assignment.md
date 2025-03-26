@@ -1,5 +1,6 @@
 ---
 slug: 02-consul-cli
+id: 9l8gbwhkvyyb
 type: challenge
 title: Consul CLI
 teaser: Take the Consul CLI for a spin
@@ -9,25 +10,27 @@ notes:
     Consul is distributed as a single binary file, which means it can act as both a server or a command line client.
     You can read more about the full list of commands [here](https://www.consul.io/docs/commands/index.html).
 tabs:
-- id: nem8ba4wgfav
+- id: laiw5vvwugmf
   title: Consul0
   type: terminal
   hostname: consul-server-0
-- id: dytoj8djz9po
+- id: zr9nszhwxgph
   title: Consul1
   type: terminal
   hostname: consul-server-1
-- id: 7jgtrriywrvd
+- id: t1rmupkwy1vq
   title: Consul2
   type: terminal
   hostname: consul-server-2
-- id: qriy0wy9kxyu
+- id: qlqsk2w3shvw
   title: Consul UI
   type: service
   hostname: consul-server-0
   port: 8500
 difficulty: basic
 timelimit: 600
+lab_config:
+  default_layout_sidebar_size: 0
 enhanced_loading: null
 ---
 The Consul binary can act as a server, client, or command line tool. We've preconfigured the command line settings for you with the `CONSUL_HTTP_ADDR` environment variable.

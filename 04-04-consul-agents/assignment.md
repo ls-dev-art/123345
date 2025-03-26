@@ -1,5 +1,6 @@
 ---
 slug: 04-consul-agents
+id: voxefab0ffqk
 type: challenge
 title: Add an Agent
 teaser: Add a Consul client agent to your Consul cluster.
@@ -10,22 +11,24 @@ notes:
 
     The agent tracks information about the node and its associated services. Agents report this information to the Consul servers, where we have a central view of node and service status.
 tabs:
-- id: bsytno7qxd2f
+- id: xjkgv1ojjxvj
   title: App
   type: terminal
   hostname: consul-agent-0
-- id: ndvrzoo0mz07
+- id: l5h7jlkny4wm
   title: App - Config
   type: code
   hostname: consul-agent-0
   path: /consul/config/client.json
-- id: rzfrvbl1fgfm
+- id: qx6nyactmvmh
   title: Consul UI
   type: service
   hostname: consul-server-0
   port: 8500
 difficulty: basic
 timelimit: 600
+lab_config:
+  default_layout_sidebar_size: 0
 enhanced_loading: null
 ---
 We've added an `App Server` to your lab environment. The app server is configured to run in `client` mode.

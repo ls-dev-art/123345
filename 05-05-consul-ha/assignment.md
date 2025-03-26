@@ -1,5 +1,6 @@
 ---
 slug: 05-consul-ha
+id: yllzy5x7f7ls
 type: challenge
 title: Consul High Availability
 teaser: Test Consul's High Availability Capabilities
@@ -16,29 +17,31 @@ notes:
     A three-node cluster can tolerate the loss of a single member.
     A five-node cluster can tolerate the loss of two members and continue to operate.
 tabs:
-- id: qe7sw6hutrmj
+- id: rqgzvpuvjzmr
   title: Consul UI
   type: service
   hostname: consul-server-0
   port: 8500
-- id: ocrr9tcffgit
+- id: lnxibvyivifs
   title: Consul0
   type: terminal
   hostname: consul-server-0
-- id: 021rxgx7m9op
+- id: w35qovpanqny
   title: Consul1
   type: terminal
   hostname: consul-server-1
-- id: jf5ibndmdnip
+- id: ui02hpxej9h4
   title: Consul2
   type: terminal
   hostname: consul-server-2
-- id: rmj3xkjytmhl
+- id: yppefoypzvco
   title: App
   type: terminal
   hostname: consul-agent-0
 difficulty: basic
 timelimit: 600
+lab_config:
+  default_layout_sidebar_size: 0
 enhanced_loading: null
 ---
 We have 3 servers in our lab environment. This means we can lose one

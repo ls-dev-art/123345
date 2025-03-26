@@ -1,5 +1,6 @@
 ---
 slug: 06-consul-acls
+id: dzregmdrwryb
 type: challenge
 title: Consul ACLs
 teaser: Set up basic Consul ACLs
@@ -14,27 +15,29 @@ notes:
 
     This challenge will take 1-2 minutes to spin up. Please be patient.
 tabs:
-- id: dnyxnkajoawl
+- id: toxwkaxwywne
   title: Consul UI
   type: service
   hostname: consul-server-0
   port: 8500
-- id: qows4ry7khgq
+- id: wjfrv1mgfjqr
   title: App
   type: terminal
   hostname: consul-agent-0
-- id: bbkxg0gvpqev
+- id: gbk0ymfefujk
   title: App Node Policy
   type: code
   hostname: consul-server-2
   path: /consul/policies/app.hcl
-- id: guwtjkpttaxd
+- id: za0v1fn9pxrl
   title: ACL Bootstrap
   type: code
   hostname: consul-server-2
   path: /tmp/bootstrap.txt
 difficulty: basic
 timelimit: 600
+lab_config:
+  default_layout_sidebar_size: 0
 enhanced_loading: null
 ---
 Let's apply some access controls to our Consul cluster to prevent unauthorized access. In this challenge you'll use the master bootstrap token to access the UI and to enable a policy for your app server.
